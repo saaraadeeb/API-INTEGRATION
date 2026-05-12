@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glass Weather App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="weather-card">
+
+    <h1 class="app-title">Weather App</h1>
+
+    <div class="search-area">
+
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Search city..."
+        autocomplete="off"
+      />
+
+      <div id="suggestions"></div>
+
+    </div>
+
+    <div class="weather-content">
+
+      <img id="weatherIcon" src="" alt="Weather Icon">
+
+      <h1 id="temperature">--°C</h1>
+
+      <h2 id="city">City Name</h2>
+
+      <p id="condition">Condition</p>
+
+      <div class="weather-details">
+
+        <div class="detail-box">
+          <span>Humidity</span>
+          <h3 id="humidity">--%</h3>
+        </div>
+
+        <div class="detail-box">
+          <span>Wind</span>
+          <h3 id="wind">-- km/h</h3>
+        </div>
+
+        <div class="detail-box">
+          <span>Feels Like</span>
+          <h3 id="feelsLike">--°C</h3>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
