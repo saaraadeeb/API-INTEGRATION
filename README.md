@@ -10,7 +10,7 @@
 
 *DURATION*: 4 WEEKS
 
-*MENTOR*: NEELA SANTOSH 
+*MENTOR*: NEELA SANTHOSH 
 
 ##This project is developed as part of my Full  Stack Web  Development Internship at CODTECH IT Solutions⁠. The main objective of this task is to create a responsive web application that fetches and displays real-time data from a public API. For this project, I developed a Weather Web Application using HTML, CSS, and JavaScript. The application dynamically retrieves weather information from a public weather API and displays it in a user-friendly interface.
 The purpose of this project is to understand how APIs work and how web applications communicate with external servers to fetch live data. API stands for Application Programming Interface, which allows different software applications to interact and exchange information. In modern web development, APIs are widely used for displaying dynamic content such as weather updates, news headlines, maps, stock prices, and many other real-time services.
